@@ -26,5 +26,5 @@ app.include_router(auth.router)
 
 @app.get("/")
 def ask():
-    return {"message": "Hello lil"}
+    return {"message": "Hello lily"}
 
